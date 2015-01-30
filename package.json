@@ -1,0 +1,26 @@
+{
+  "name": "webstorm-live-templates",
+  "version": "0.0.1",
+  "description": "Live Templates for WebStorm IDE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmaklygin/webstorm-live-templates.git"
+  },
+  "keywords": [
+    "nodejs",
+    "live-templates"
+  ],
+  "author": "d.maklygin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmaklygin/webstorm-live-templates/issues"
+  },
+  "homepage": "https://github.com/dmaklygin/webstorm-live-templates",
+  "devDependencies": {
+    "xml2js": "~0.4.4"
+  }
+}
