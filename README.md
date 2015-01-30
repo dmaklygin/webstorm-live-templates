@@ -25,6 +25,12 @@ gulp.src('$PATH$')
   .pipe(name(''))
 ```
 
+`gulpw` - gulp.watch('/path/to/src', ['default']);
+
+```
+gulp.watch('$SRC$', ['default']);
+```
+
 
 ####JavaScript
 
