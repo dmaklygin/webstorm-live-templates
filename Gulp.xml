@@ -11,4 +11,10 @@
             <option name="JS_STATEMENT" value="true" />
         </context>
     </template>
+    <template name="gulpw" value="gulp.watch('$SRC$', ['default']);" description="gulp.watch('/path/to/src', ['default']);" toReformat="true" toShortenFQNames="true">
+        <variable name="SRC" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
 </templateSet>
