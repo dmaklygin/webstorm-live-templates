@@ -1,0 +1,9 @@
+<templateSet group="React">
+    <template name="rec" value="var $name$ = React.createClass({&#10;  render: function() {&#10;    return (&#10;      $div$&#10;    )&#10;  }&#10;});" description="React.createClass" toReformat="true" toShortenFQNames="true">
+        <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="div" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+</templateSet>

@@ -1,0 +1,11 @@
+<templateSet group="JavaScript">
+    <template name="req" value="var $NAME$ = require('$SCRIPT$');" description="require script" toReformat="true"
+              toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="SCRIPT" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="JS_EXPRESSION" value="false"/>
+            <option name="JS_STATEMENT" value="true"/>
+        </context>
+    </template>
+</templateSet>
