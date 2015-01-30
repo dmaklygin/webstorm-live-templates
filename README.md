@@ -32,15 +32,6 @@ gulp.watch('$SRC$', ['default']);
 ```
 
 
-####JavaScript
-
-`req` - require script
-
-```
-var $NAME$ = require('$SCRIPT$');
-```
-
-
 ####React
 
 `rec` - React.createClass
@@ -53,4 +44,51 @@ var $name$ = React.createClass({
     )
   }
 });
+```
+
+`cw` - componentWihMount
+
+```
+componentWithMount: function() {
+
+}
+```
+
+`thisp` - this.props
+
+```
+this.props
+```
+
+`thiss` - this.state
+
+```
+this.state
+```
+
+`thisr` - this.refs
+
+```
+this.refs
+```
+
+`ss` - this.setState()
+
+```
+this.setState($OBJECT$);
+```
+
+`sp` - this.setProps()
+
+```
+this.setProps($OBJECT$);
+```
+
+
+####JavaScript
+
+`req` - require script
+
+```
+var $NAME$ = require('$SCRIPT$');
 ```

@@ -1,9 +1,44 @@
 <templateSet group="React">
-    <template name="rec" value="var $name$ = React.createClass({&#10;  render: function() {&#10;    return (&#10;      $div$&#10;    )&#10;  }&#10;});" description="React.createClass" toReformat="true" toShortenFQNames="true">
-        <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-        <variable name="div" expression="" defaultValue="" alwaysStopAt="true" />
-        <context>
-            <option name="JS_STATEMENT" value="true" />
-        </context>
-    </template>
+  <template name="rec" value="var $name$ = React.createClass({&#10;  render: function() {&#10;    return (&#10;      $div$&#10;    )&#10;  }&#10;});" description="React.createClass" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="div" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cw" value="componentWithMount: function() {&#10;&#10;}" description="componentWihMount" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thisp" value="this.props" description="this.props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thiss" value="this.state" description="this.state" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thisr" value="this.refs" description="this.refs" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ss" value="this.setState($OBJECT$);" description="this.setState()" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sp" value="this.setProps($OBJECT$);" description="this.setProps()" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
