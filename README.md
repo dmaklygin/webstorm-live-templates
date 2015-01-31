@@ -84,6 +84,16 @@ this.setState($OBJECT$);
 this.setProps($OBJECT$);
 ```
 
+`ree` - React.createElement
+
+```
+var $name$ = React.createElement(
+  $ReactClass$,
+  $PROPS$,
+  $CHILDREN$
+);
+```
+
 
 ####JavaScript
 

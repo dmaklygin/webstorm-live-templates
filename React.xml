@@ -41,4 +41,13 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ree" value="var $name$ = React.createElement(&#10;  $ReactClass$,&#10;  $PROPS$,&#10;  $CHILDREN$&#10;);" description="React.createElement" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ReactClass" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CHILDREN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
